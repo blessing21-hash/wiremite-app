@@ -1,0 +1,69 @@
+.dashboard-container {
+    padding: 0rem;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+  }
+  
+  
+  .carousel-slide img {
+    border-radius: 8px;
+    height: 80vh;
+    width: 20%;
+  }
+  
+  
+  .send-money-section {
+    background: #ffffff;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .send-money-section h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .send-money-form input {
+    width: 100%;
+    padding: 0.6rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+  }
+  
+  .send-money-form button {
+    background-color: #2563eb;
+    color: white;
+    padding: 0.6rem;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: bold;
+  }
+  
+  .send-money-form button:hover {
+    background-color: #1d4ed8;
+  }
+  
+  
+  .transaction-history {
+    margin-top: 2rem;
+    background:#1d4ed8 ;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .transaction-history table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .transaction-history th,
+  .transaction-history td {
+    padding: 0.6rem;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+  }
+   
