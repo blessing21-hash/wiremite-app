@@ -2,9 +2,9 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import Signup from "./Pages/Signup/Signup";
-import Login from "./pages/Login/Login";
-import Dashboard from "./pages/Dashboard/Dashboard";
-import ProtectedRoute from "./components/ProtectedRoute/ProtectedRoute";
+import Login from "./Pages/Login/Login";
+import Dashboard from "./Pages/Dashboard/Dashboard";
+import ProtectedRoute from "./Components/ProtectedRoute/ProtectedRoute";
 
  function App() {
   return (
