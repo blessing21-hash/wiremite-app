@@ -1,3 +1,122 @@
 
 
 
+/* Light Mode */
+ .light {
+    --bg: #f9f9f9;
+    --text: #222;
+    --card-bg: #fff;
+    --card-border: #ddd;
+    --btn-bg: #007bff;
+    --btn-text: #fff;
+  }
+  
+  
+  .dark {
+    --bg: #1e1e1e;
+    --text: #f9f9f9;
+    --card-bg: #2a2a2a;
+    --card-border: #444;
+    --btn-bg: #4a90e2;
+    --btn-text: #fff;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background 0.3s ease, color 0.3s ease;
+  } 
+  
+
+
+
+  /* src/index.css or App.css */
+
+/* Light theme (default) */
+:root {
+    --bg-color: #f9f9f9;
+    --text-color: #1a1a1a;
+    --card-bg: #ffffff;
+    --button-bg: #007bff;
+    --button-text: #ffffff;
+    --nav-bg: #ffffff;
+    --nav-text: #1a1a1a;
+  }
+  
+  /* Dark theme overrides */
+  body.dark {
+    --bg-color: #121212;
+    --text-color: #f5f5f5;
+    --card-bg: #1e1e1e;
+    --button-bg: #1f6feb;
+    --button-text: #ffffff;
+    --nav-bg: #1e1e1e;
+    --nav-text: #f5f5f5;
+  }
+  
+  /* Apply variables */
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+    font-family: sans-serif;
+  }
+  
+  .navbar {
+    background-color: var(--nav-bg);
+    color: var(--nav-text);
+  }
+  
+  .nav-link {
+    color: var(--nav-text);
+  }
+  
+  .card {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+
+  /* Light theme */
+body.light {
+    --nav-bg: #ffffff;
+    --nav-text: #333333;
+    --btn-bg: #007bff;
+    --btn-text: #ffffff;
+    --card-bg: #f5f5f5;
+    --card-border: #dddddd;
+    --text: #333333;
+  }
+  
+  /* Dark theme */
+  body.dark {
+    --nav-bg: #1f1f1f;
+    --nav-text: #f5f5f5;
+    --btn-bg: #0d6efd;
+    --btn-text: #ffffff;
+    --card-bg: #2c2c2c;
+    --card-border: #444444;
+    --text: #f5f5f5;
+  }
+  

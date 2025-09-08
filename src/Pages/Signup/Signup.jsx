@@ -89,3 +89,71 @@ function Signup() {
 }
 
 export default Signup;
+
+
+
+
+
+// import React, { useState } from "react";
+// import "../../Pages/Signup/Signup.css";
+
+// const Signup = () => {
+//   const [form, setForm] = useState({ name: "", email: "", password: "" });
+//   const [error, setError] = useState("");
+
+//   const validateEmail = (email) => /\S+@\S+\.\S+/.test(email);
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     setError("");
+
+//     if (!form.name || !form.email || !form.password) {
+//       setError("All fields are required");
+//       return;
+//     }
+
+//     if (!validateEmail(form.email)) {
+//       setError("Please enter a valid email");
+//       return;
+//     }
+
+//     if (form.password.length < 6) {
+//       setError("Password must be at least 6 characters long");
+//       return;
+//     }
+
+//     // Save user (mock localStorage for now)
+//     localStorage.setItem("wiremiteUser", JSON.stringify(form));
+//     alert("Account created! You can now log in.");
+//   };
+
+//   return (
+//     <div className="signup-container">
+//       <h2>Sign Up</h2>
+//       <form onSubmit={handleSubmit}>
+//         <input
+//           type="text"
+//           placeholder="Full Name"
+//           value={form.name}
+//           onChange={(e) => setForm({ ...form, name: e.target.value })}
+//         />
+//         <input
+//           type="email"
+//           placeholder="Email"
+//           value={form.email}
+//           onChange={(e) => setForm({ ...form, email: e.target.value })}
+//         />
+//         <input
+//           type="password"
+//           placeholder="Password"
+//           value={form.password}
+//           onChange={(e) => setForm({ ...form, password: e.target.value })}
+//         />
+//         <button type="submit">Sign Up</button>
+//         {error && <p className="error">{error}</p>}
+//       </form>
+//     </div>
+//   );
+// };
+
+// export default Signup;
